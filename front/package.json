@@ -1,0 +1,81 @@
+{
+    "name": "my-project",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "1.2.36",
+        "@fortawesome/free-solid-svg-icons": "5.15.4",
+        "@fortawesome/react-fontawesome": "0.1.15",
+        "@testing-library/jest-dom": "5.11.4",
+        "@testing-library/react": "11.1.0",
+        "@testing-library/user-event": "12.1.10",
+        "aos": "2.3.4",
+        "autoprefixer": "9.8.6",
+        "axios": "0.21.4",
+        "cloudinary-react": "1.7.0",
+        "dompurify": "^2.3.3",
+        "draft-convert": "^2.1.12",
+        "draft-js": "^0.11.7",
+        "draftjs-to-html": "^0.9.1",
+        "eegeo.js": "^0.1.1111",
+        "emailjs-com": "^3.2.0",
+        "html-to-draftjs": "^1.5.0",
+        "leaflet": "1.7.1",
+        "moment": "2.29.1",
+        "postcss": "8.3.6",
+        "postcss-cli": "8.3.1",
+        "query-string": "^7.0.1",
+        "react": "17.0.2",
+        "react-credit-cards": "0.8.3",
+        "react-dom": "17.0.2",
+        "react-draft-wysiwyg": "^1.14.7",
+        "react-facebook-login": "4.1.1",
+        "react-google-login": "5.2.2",
+        "react-google-recaptcha-v3": "^1.9.5",
+        "react-hook-form": "7.14.2",
+        "react-icons": "4.2.0",
+        "react-router-dom": "5.2.0",
+        "react-scripts": "4.0.3",
+        "smtpjs": "0.0.1",
+        "socket.io-client": "^4.2.0",
+        "swagger-convert-to-html": "^1.0.3",
+        "tailwindcss": "2.2.7",
+        "web-vitals": "1.0.1",
+        "wrld-react": "^0.1.2401"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "npm run build:css && react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "build:css": "postcss src/style/tailwind.css -o src/style/main.css",
+        "watch:css": "postcss src/style/tailwind.css -o src/style/main.css -w"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "eslint-config-react-app": "6.0.0",
+        "eslint-plugin-import": "2.24.2",
+        "eslint-plugin-jsx-a11y": "6.4.1",
+        "eslint-plugin-prettier": "3.4.1",
+        "eslint-plugin-react": "7.24.0",
+        "eslint-plugin-react-hooks": "4.2.0",
+        "prettier": "2.3.2"
+    }
+}

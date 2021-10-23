@@ -1,0 +1,285 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* btn-blue */
+.btn-blue {
+    @apply text-white bg-blue-500 border border-solid border-blue-400 uppercase text-base
+        px-4 py-2 rounded-full outline-none ease-linear transition-all duration-150;
+}
+
+.btn-blue:hover {
+    @apply bg-blue-600 border-blue-600;
+}
+
+.btn-blue:active {
+    @apply bg-blue-600;
+}
+
+.btn-blue:focus {
+    @apply outline-none;
+}
+
+/* btn-red */
+.btn-red {
+    @apply text-white bg-red-500 border border-solid border-red-400 uppercase text-base
+        px-4 py-2 rounded-full outline-none ease-linear transition-all duration-150;
+}
+
+.btn-red:hover {
+    @apply bg-red-600 border-red-600;
+}
+
+.btn-red:active {
+    @apply bg-red-600;
+}
+
+.btn-red:focus {
+    @apply outline-none;
+}
+
+/* btn-yellow-hollow*/
+.btn-yellow-hollow {
+    @apply text-yellow-400 bg-transparent border border-solid border-yellow-300 uppercase text-base px-4 py-2 rounded-full outline-none mr-1 mb-1 ease-linear transition-all duration-150;
+}
+
+.btn-yellow-hollow:hover {
+    @apply bg-yellow-400 text-gray-800;
+}
+
+.btn-yellow-hollow:active {
+    @apply bg-yellow-600;
+}
+
+.btn-yellow-hollow:focus {
+    @apply outline-none;
+}
+
+/* btn-yellow */
+.btn-yellow {
+    @apply text-gray-800 bg-yellow-400 border border-solid border-yellow-400 uppercase text-base
+        px-4 py-2 rounded-full outline-none ease-linear transition-all duration-150;
+}
+
+.btn-yellow:hover {
+    @apply bg-yellow-500 border-yellow-500;
+}
+
+.btn-yellow:active {
+    @apply bg-yellow-500;
+}
+
+.btn-yellow:focus {
+    @apply outline-none;
+}
+
+/* 小的 */
+.btn-yellow-sm {
+    @apply text-gray-800 bg-yellow-400 border border-solid border-yellow-400 uppercase text-sm
+        px-4 py-2 rounded-full outline-none ease-linear transition-all duration-150;
+}
+
+.btn-yellow-sm:hover {
+    @apply bg-yellow-500 border-yellow-500;
+}
+
+.btn-yellow-sm:active {
+    @apply bg-yellow-500;
+}
+
+.btn-yellow-sm:focus {
+    @apply outline-none;
+}
+
+.btn-yellow-tag:hover {
+    @apply bg-yellow-500 border-yellow-500;
+}
+
+.btn-yellow-tag:active {
+    @apply bg-yellow-500;
+}
+
+.btn-yellow-tag:focus {
+    @apply outline-none;
+}
+
+/* btn-gray */
+.btn-gray {
+    @apply text-white bg-gray-700 border border-solid border-gray-700 uppercase text-base
+        px-4 py-2 rounded-full outline-none ease-linear transition-all duration-150;
+}
+
+.btn-gray:hover {
+    @apply bg-gray-900 border-gray-900;
+}
+
+.btn-gray:active {
+    @apply bg-gray-900;
+}
+
+.btn-gray:focus {
+    @apply outline-none;
+}
+
+/* 小的 */
+.btn-gray-sm {
+    @apply text-white bg-gray-700 border border-solid border-gray-700 uppercase text-sm
+        px-4 py-2 rounded-full outline-none ease-linear transition-all duration-150;
+}
+
+.btn-gray-sm:hover {
+    @apply bg-gray-900 border-gray-900;
+}
+
+.btn-gray-sm:active {
+    @apply bg-gray-900;
+}
+
+.btn-gray-sm:focus {
+    @apply outline-none;
+}
+
+/* 深色小按鈕 */
+.btn-gray-sm-dark {
+    @apply text-white bg-gray-800 border border-solid border-gray-800 uppercase text-sm
+        px-4 py-2 rounded-full outline-none ease-linear transition-all duration-150;
+}
+
+.btn-gray-sm-dark:hover {
+    @apply bg-gray-900 border-gray-900;
+}
+
+.btn-gray-sm-dark:active {
+    @apply bg-gray-900;
+}
+
+.btn-gray-sm-dark:focus {
+    @apply outline-none;
+}
+
+/* btn-green */
+.btn-green {
+    @apply text-white bg-green-500 border border-solid border-green-500 uppercase text-base
+        px-4 py-2 rounded-full outline-none ease-linear transition-all duration-150;
+}
+
+.btn-green:hover {
+    @apply bg-green-600 border-green-600;
+}
+
+.btn-green:active {
+    @apply bg-green-600;
+}
+
+.btn-green:focus {
+    @apply outline-none;
+}
+
+/* 小會員圖 */
+.user-image-sm {
+    @apply w-12;
+}
+
+.user-image-sm:hover {
+    @apply filter brightness-90 cursor-pointer;
+}
+
+.user-image-sm:active {
+    @apply filter brightness-75 cursor-pointer;
+}
+
+/* 大會員圖 */
+.user-image-bg {
+    @apply w-48;
+}
+
+/* 原型圖片 */
+.image-round {
+    @apply shadow rounded-full max-w-full h-auto align-middle border-none;
+}
+
+/* 會員表單的li樣式 */
+.user-submenu-li {
+    @apply pl-8 py-2 block ml-7  border-l border-yellow-400;
+}
+.users-li {
+    @apply pl-8 py-2.5 block;
+}
+/* 會員表單的li hover */
+.users-li:hover {
+    @apply block bg-gray-700  text-yellow-400;
+}
+
+/* 會員表單的副欄樣式 */
+.submenu {
+    @apply bg-opacity-0;
+}
+/* 會員表單的副欄hover */
+.users-li:hover .submenu {
+    @apply block opacity-100 max-h-full text-white;
+}
+.users-li:hover .submenu li:hover {
+    @apply bg-gray-900 block border-r-2 border-yellow-400  text-yellow-400 transition;
+}
+/* 會員表單react icons樣式 */
+.userIcons {
+    @apply w-5 h-5 text-yellow-400 mx-5 inline-block;
+}
+
+/* btn-yellow-tag by Sarah */
+.btn-yellow-tag {
+    @apply text-gray-800 bg-yellow-400 border border-solid border-yellow-400 uppercase text-sm
+        rounded-full outline-none ease-linear transition-all duration-150;
+}
+
+/* 會員頁面title */
+.user-page-title {
+    @apply text-2xl font-bold;
+}
+
+.user-page-sub-title {
+    @apply text-xl font-medium;
+}
+
+/* input會員樣式 */
+.input-style {
+    @apply appearance-none bg-transparent w-full text-white mr-3 py-1 px-2 leading-tight border-b border-gray-700 focus:outline-none focus:border-yellow-400 mt-1;
+}
+
+/* 側欄點擊功能 */
+.hidden-section {
+    @apply hidden;
+}
+#ordermenu:checked ~ section {
+    @apply block;
+}
+#videomenu:checked ~ section {
+    @apply block;
+}
+#articlemenu:checked ~ section {
+    @apply block;
+}
+.eyesposition {
+    @apply absolute flex -translate-y-5 transform right-3 cursor-pointer;
+}
+/* 變更user-avatar樣式 */
+.avatar-change {
+    @apply hover:bg-gray-700;
+}
+/* navmenu樣式 */
+.navmenu:hover .submenu {
+    @apply block;
+}
+.navmenu:hover .submenu:hover {
+    @apply block bg-yellow-400 text-black;
+}
+
+/* 購物車頁面高 */
+.cart-page-height {
+    height: calc(100% - 72px);
+}
+
+/* 訂單頁面高 */
+.order-record-page-height {
+    height: calc(100% - 328px);
+}

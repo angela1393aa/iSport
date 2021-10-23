@@ -1,0 +1,14 @@
+{
+    "extends": [
+        "react-app"
+    ],
+    "plugins": [
+        "prettier",
+        "react-hooks"
+    ],
+    "rules": {
+        "prettier/prettier": 1, // warn 暫時關閉 記得將縮排改回2
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn"
+    }
+}

@@ -1,0 +1,52 @@
+.outer-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.inner-container {
+    position: absolute;
+    /*這四個方向的位置要寫全，否則不生效*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: -17px;
+    overflow-y: scroll;
+}
+.innerbot-container {
+    position: absolute;
+    /*這四個方向的位置要寫全，否則不生效*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: -17px;
+    overflow-x: scroll;
+}
+.container::-webkit-scrollbar {
+    width: 1em;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: #fbbf24;
+    border: 1px solid transparent;
+}
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.commentInput {
+    resize: none;
+}
+
+.line-clamp-10 {
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+}
